@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,8 +9,8 @@
 </head>
 <body>
     <h1>student login</h1>
-    <img src="{% static images/trophie.jpg%}">
-    <form action="{% url 'schooladmin:index' %}"></form>
+    <img src="{% static 'images/trophie.jpg' %}">
+    <form action="{% url 'student:index' %}">
     <table>
         <tr>
             <td>user name</td>

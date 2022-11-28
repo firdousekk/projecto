@@ -18,12 +18,18 @@ def studentlogin(request):
 
 
 def teacherlogin(request):
-    return render(request,'commen_templates/teaherlogin.html') 
+    return render(request,'commen_templates/teacherlogin.html') 
 
 
     
 def views(request):
     return render(request,'commen_templates/views.html') 
+
+def css(request):
+    return render(request,'commen_templates/css.html')   
+
+def css1(request):
+    return render(request,'commen_templates/css1.html')     
         
     
     

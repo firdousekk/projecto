@@ -8,4 +8,5 @@ def addstudent(request):
 def viewstudent(request):
     return render(request,'school_admin_templates/viewstudent.html') 
 def viewattendence(request):
-    return render(request,'school_admin_templates/viewattendence.html')         
+    return render(request,'school_admin_templates/viewattendence.html')  
+       

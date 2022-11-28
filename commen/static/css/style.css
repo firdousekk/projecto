@@ -1,0 +1,17 @@
+#h1{
+    color: aquamarine;
+    font-size: xx-large;
+}
+.p{
+    color: black;
+}
+div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div span{
+    color: blue;
+}
+a[href="facebook.com"]{
+    color: rgb(1, 1, 20);
+    font-size: larger;
+}

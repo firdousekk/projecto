@@ -1,0 +1,7 @@
+span{
+    color: aquamarine;
+    font-size: large;
+}
+div span{
+    color:inherit black ;
+}
