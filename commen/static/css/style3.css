@@ -1,0 +1,63 @@
+#p{
+    height:250px;
+    margin: 30px;
+
+    width: 250px;
+    border-width: 10px 10px;
+    border-color: blue red;
+    border-style: dashed;
+    background-color: aqua;
+}
+#p1{
+    height:250px;
+    margin: 30px;
+    width: 250px;
+    border-width: 10px 10px;
+    border-color: blue red;
+    border-style: dashed;
+    background-color: black;
+    /*display: none; box goes from browser
+    visibility: hidden; there have space of box but hidden that*/
+    /*position: relative;
+    top:100px;*/
+    position: absolute;
+    left:100px;
+}
+#p2{
+    height:250px;
+    margin: 30px;
+    width: 250px;
+    border-width: 10px 10px;
+    border-color: blue red;
+    border-style: dashed;
+    background-color: bisque;
+
+
+}
+#p4{
+    height: 1000px;
+    width: 700px;
+    border-width: 10px 10px;
+    border-color: rgb(1, 1, 14) rgb(138, 133, 133);
+    border-style: dashed;
+    background-color: rgb(93, 177, 42);
+    margin-left: 200px;
+    position: relative;
+    margin-top:40px ;
+
+    
+    
+    
+}
+#p5{
+    position: fixed;
+    right: 10px;
+}
+#nb{
+    height: 50px;
+    background-color: red;
+    position: sticky;
+    top:3px;
+    z-index: 1;/*for content  crol behind navebar*/
+;
+}

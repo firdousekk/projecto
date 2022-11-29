@@ -1,0 +1,24 @@
+#p{
+    color: aquamarine;
+   /* height: 500px;*/min-height: 20px;
+   max-height: 200px;
+    width:500px;
+    background-color: rgb(16, 16, 17);
+    /*border-top-width: 10px;
+    border-left-width:20px ;*/
+    /*border-width: 10px 20px 25px 30px;
+    border-color: red green silver yellow;
+    border-style: dotted;*/
+    border: 20px dotted rgb(127, 154, 73);
+    /*it have no order*/
+   /* margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;*/
+    overflow: scroll;
+
+}
+.p{
+    background-color: brown !important;
+}
